@@ -25,6 +25,21 @@
     --container-width-sm: 90%;
 }
 
+:root {
+    --color-bg: #2c1338;
+    --color-bg-variant: #412a4c;
+    --color-primary: #e57cd8;
+    --color-primary-variant: #564260;
+    --color-white: #faeee9;
+    --color-light: #f8e0d5;
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -43,7 +58,7 @@ body {
 
 /* GENERAL STYLES */
 
-.contaier {
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
@@ -113,7 +128,7 @@ img {
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-    .contaier {
+    .container {
         width: var(--container-width-md);
     }
 
@@ -125,7 +140,7 @@ img {
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
-    .contaier {
+    .container {
         width: var(--container-width-sm);
     }
 
